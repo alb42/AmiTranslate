@@ -10,4 +10,5 @@ Requirements:
 
 Works on Amiga OS3+ 68020, MorphOS, AROS x86/x64/arm, Amiga OS4
 
-Needs MUIClass to compile
+- Needs [MUIClass](https://github.com/alb42/MUIClass) to compile
+- dont forget to put your API Key into deeplkey.inc file (use deeplkey.inc.template as example)
