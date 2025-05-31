@@ -1,0 +1,258 @@
+## version $VER: AmiTranslate.catalog 0.1 (11.01.2025)
+## language deutsch
+## codeset 0
+;
+;   Comments are allowed, of course! Each line beginning with a
+;   semicolon is assumed to be a comment
+;
+;   The language of the builtin strings:
+;#language english
+;
+;   The catalog version, used for a call to Locale/OpenCatalog().
+;   This is different to Exec/OpenLibrary(): 0 means any catalog
+;   version, other numbers must match exactly!
+;#version 0
+;
+;   This defines a string and the ID which allows to use it.
+;   The number 4 says, that this string must not be shorter than
+;   4 characters.
+;#### Application
+APP_DESC
+Übersetze Texte mit DeepL
+; Translate Texts using DeepL
+;
+ERROR_SWITCH_AUTO
+Automatische Eingabesprache ausgewählt, aber noch keine Übersetzung durchgeführt
+; Automatic Source language selected, but no translation done.
+;
+ERROR_SWITCH_SRC
+Eingabesprache nicht in Ausgabesprachenliste gefunden.
+; Input langauge not found in possible output languages.
+;
+ERROR_SWITCH_DEST
+Ausgabesprache nicht in Eingabespracheliste gefunden.
+; Output langauge not found in possible input languages.
+;
+;#### GUI 
+GUI_INPUT_LANG
+Eingabesprache
+; Input Language
+;
+GUI_OUTPUT_LANG
+Ausgabesprache
+; Output Language
+;
+GUI_TRANSLATE
+Übersetzen
+; Translate
+;
+GUI_PLAIN
+Klartext
+; Plain
+;
+GUI_FANCY
+Schick
+; Fancy
+;
+GUI_CLEAR
+Leeren
+; Clear
+;
+GUI_INSERT_TEXT
+Text einfügen
+; Insert Text
+;
+GUI_COPYTEXT
+Text kopieren
+; Copy Text
+;
+GUI_SAVEASUTF8
+Als UTF-8 speichern
+; Save as UTF-8
+;
+GUI_SAVEASPDF
+Als PDF speichern
+; Save as PDF
+;
+GUI_SWITCH
+Vertauschen
+; Switch
+;
+;#### MENU
+MENU_TEXT
+Text
+; Text
+;
+MENU_PASTE
+Einfügen
+; Paste
+;
+MENU_CLEAR
+Leeren
+; Text
+;
+MENU_PASTEINPUT
+In Quelle einfügen
+; Paste to Source
+;
+MENU_PASTEINPUT_KEY
+V
+; V
+;
+MENU_COPY
+Kopierenm
+; Copy
+;
+MENU_COPYRESULT
+Ergebnis kopieren
+; Copy Result
+;
+MENU_COPYRESULT_KEY
+C
+; C
+;
+MENU_CLEARALL
+Alles Leeren
+; Clear All
+;
+MENU_CLEARALL_KEY
+D
+; D
+;
+;#### Languages
+LANG_AUTO
+Automatisch
+; Automatic
+;
+LANG_BULGARIAN
+Bulgarisch
+; Bulgarian
+;
+LANG_CZECH
+Tschechisch
+; Czech
+;
+LANG_DANISH
+Dänisch
+; Danish
+;
+LANG_GERMAN
+Deutsch
+; German
+;
+LANG_GREEK
+Griechisch
+; Greek
+;
+LANG_ENGLISH
+Englisch
+; English
+;
+LANG_ENGLISH_GB
+Englisch (Britisch)
+; English (British)
+;
+LANG_ENGLISH_US
+English (Amerikanisch)
+; English (American)
+;
+LANG_SPANISH
+Spanisch
+; Spanish
+;
+LANG_ESTONIAN
+Estnisch
+; Estonian
+;
+LANG_FINNISH
+Finnisch
+; Finnish
+;
+LANG_FRENCH
+Französisch
+; French
+;
+LANG_HUNGARIAN
+Ungarisch
+; Hungarian
+;
+LANG_INDONESIAN
+Indonesisch
+; Indonesian
+;
+LANG_ITALIAN
+Italienisch
+; Italian
+;
+LANG_JAPANESE
+Japanisch
+; Japanese
+;
+LANG_KOREAN
+Koreanisch
+; Korean
+;
+LANG_LITHUANIAN
+Litauisch
+; Lithunanian
+;
+LANG_LATVIAN
+Lettisch
+; Latvian
+;
+LANG_NORWEGIAN
+Norwegisch (Bokmal)
+; Norwegian (Bokmal)
+;
+LANG_DUTCH
+Holländisch
+; Dutch
+;
+LANG_POLISH
+Polnisch
+; Polish
+;
+LANG_PORTUGESE
+Portugesisch
+; Portugese
+;
+LANG_PORTUGESE_BR
+Portugesisch (Brasilianisch)
+; Portugese (Brazilian)
+;
+LANG_PORTUGESE_PT
+Portugesisch (Andere)
+; Portugese (Other)
+;
+LANG_ROMANIAN
+Rumänisch
+; Romanian
+;
+LANG_RUSSIAN
+Russisch
+; Russian
+;
+LANG_SLOVAK
+Slovakisch
+; Slovak
+;
+LANG_SLOVENIAN
+Slovenisch
+; Solvenian
+;
+LANG_SWEDISH
+Schwedisch
+; Swedish
+;
+LANG_TURKISH
+Türkisch
+; Turkish
+;
+LANG_UKRAINIAN
+Ukrainisch
+; Ukrainian
+;
+LANG_CHINESE
+Chinesisch
+; Chinese
+;

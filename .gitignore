@@ -1,0 +1,16 @@
+lib/
+units/
+test/
+AmiTranslate
+*.uaem
+AmiTranslate.ini
+*.lps
+msg.log
+*.lha
+test.pdf
+*.pdf
+*.o
+*.ppu
+*.res
+backup/
+deeplkey.inc

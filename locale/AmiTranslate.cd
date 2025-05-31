@@ -1,0 +1,195 @@
+;   Comments are allowed, of course! Each line beginning with a
+;   semicolon is assumed to be a comment
+;
+;   The language of the builtin strings:
+#language english
+;
+;   The catalog version, used for a call to Locale/OpenCatalog().
+;   This is different to Exec/OpenLibrary(): 0 means any catalog
+;   version, other numbers must match exactly!
+#version 0
+;
+;   This defines a string and the ID which allows to use it.
+;   The number 4 says, that this string must not be shorter than
+;   4 characters.
+;#### Application
+APP_DESC (1000//)
+Translate Texts using DeepL
+;
+ERROR_SWITCH_AUTO (2000//)
+Automatic Source language selected, but no translation done.
+;
+ERROR_SWITCH_SRC (2002//)
+Input langauge not found in possible output languages.
+;
+ERROR_SWITCH_DEST (2003//)
+Output langauge not found in possible input languages.
+;
+;#### GUI 
+GUI_INPUT_LANG (10000//)
+Input Language
+;
+GUI_OUTPUT_LANG (10001//)
+Output Language
+;
+GUI_TRANSLATE (10003//)
+Translate
+;
+GUI_PLAIN (10004//)
+Plain
+;
+GUI_FANCY (10005//)
+Fancy
+;
+GUI_CLEAR (10006//)
+Clear
+;
+GUI_INSERT_TEXT (10007//)
+Insert Text
+;
+GUI_COPYTEXT (10008//)
+Copy Text
+;
+GUI_SAVEASUTF8 (10009//)
+Save as UTF-8
+;
+GUI_SAVEASPDF (10010//)
+Save as PDF
+;
+GUI_SWITCH (10011//)
+Switch
+;
+;#### MENU
+MENU_TEXT (11000//)
+Text
+;
+MENU_PASTE (11001//)
+Paste
+;
+MENU_CLEAR (11002//)
+Text
+;
+MENU_PASTEINPUT (11003//)
+Paste to Source
+;
+MENU_PASTEINPUT_KEY (11004/1/1)
+V
+;
+MENU_COPY (11005//)
+Copy
+;
+MENU_COPYRESULT (11006//)
+Copy Result
+;
+MENU_COPYRESULT_KEY (11007/1/1)
+C
+;
+MENU_CLEARALL (11008//)
+Clear All
+;
+MENU_CLEARALL_KEY (11009/1/1)
+D
+;
+;#### Languages
+LANG_AUTO (20000//)
+Automatic
+;
+LANG_BULGARIAN (20001//)
+Bulgarian
+;
+LANG_CZECH (20002//)
+Czech
+;
+LANG_DANISH (20003//)
+Danish
+;
+LANG_GERMAN (20004//)
+German
+;
+LANG_GREEK (20005//)
+Greek
+;
+LANG_ENGLISH (20006//)
+English
+;
+LANG_ENGLISH_GB (20007//)
+English (British)
+;
+LANG_ENGLISH_US (20008//)
+English (American)
+;
+LANG_SPANISH (20009//)
+Spanish
+;
+LANG_ESTONIAN (20010//)
+Estonian
+;
+LANG_FINNISH (20011//)
+Finnish
+;
+LANG_FRENCH (20012//)
+French
+;
+LANG_HUNGARIAN (20013//)
+Hungarian
+;
+LANG_INDONESIAN (20014//)
+Indonesian
+;
+LANG_ITALIAN (20015//)
+Italian
+;
+LANG_JAPANESE (20016//)
+Japanese
+;
+LANG_KOREAN (20017//)
+Korean
+;
+LANG_LITHUANIAN (20018//)
+Lithunanian
+;
+LANG_LATVIAN (20019//)
+Latvian
+;
+LANG_NORWEGIAN (20020//)
+Norwegian (Bokmal)
+;
+LANG_DUTCH (20021//)
+Dutch
+;
+LANG_POLISH (20022//)
+Polish
+;
+LANG_PORTUGESE (20023//)
+Portugese
+;
+LANG_PORTUGESE_BR (20024//)
+Portugese (Brazilian)
+;
+LANG_PORTUGESE_PT (20025//)
+Portugese (Other)
+;
+LANG_ROMANIAN (20026//)
+Romanian
+;
+LANG_RUSSIAN (20027//)
+Russian
+;
+LANG_SLOVAK (20028//)
+Slovak
+;
+LANG_SLOVENIAN (20029//)
+Solvenian
+;
+LANG_SWEDISH (20030//)
+Swedish
+;
+LANG_TURKISH (20031//)
+Turkish
+;
+LANG_UKRAINIAN (20032//)
+Ukrainian
+;
+LANG_CHINESE (20033//)
+Chinese
+;

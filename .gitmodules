@@ -1,0 +1,3 @@
+[submodule "tbutf8"]
+	path = tbutf8
+	url = https://gitlab.com/FpTuxe/tbutf8.git

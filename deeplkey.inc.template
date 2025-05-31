@@ -1,0 +1,4 @@
+const
+  // API Key for DeepL - get from DeepL Page
+  Key = '00000000-0000-0000-0000-000000000000:00';
+
